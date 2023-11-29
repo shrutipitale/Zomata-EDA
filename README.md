@@ -6,19 +6,24 @@ This journey through the Zomato dataset exemplifies the marriage of art and scie
 **Install the import python libraries**
 
 1.Pandas:
-pip install pandas
+```bash
+     pip install pandas
+```
 
 2.NumPy:
-pip install numpy
+```bash
+     pip install numpy
+```
+
 
 3.Matplotlib:
-pip install matplotlib
+```bash
+     pip install matplotlib
+```
 
 4.Seaborn:
-pip install seaborn
-
-**Download the dataset of Zomata**
 ```bash
-     pip install pandas requests
-     python -c "import requests; response = requests.get('https://raw.githubusercontent.com/dsrscientist/DSData/master/zomato.csv'); open('zomato.csv', 'wb').write(response.content)"
-     ```
+     pip install seaborn
+```
+**Download the dataset of Zomata**
+
