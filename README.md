@@ -3,7 +3,7 @@ The Zomato EDA project demonstrates the power of data decipherment in its purest
 It emphasises the importance of EDA as a compass, directing decision-makers to the shores of data-driven wisdom. 
 This journey through the Zomato dataset exemplifies the marriage of art and science, as raw data transforms into a symphony of insights poised to inspire culinary innovation and strategic transformation.
 
-# Install the import python libraries
+**Install the import python libraries**
 
 1.Pandas:
 pip install pandas
@@ -17,4 +17,8 @@ pip install matplotlib
 4.Seaborn:
 pip install seaborn
 
-Download the dataset of Zomata 
+**Download the dataset of Zomata**
+```bash
+     pip install pandas requests
+     python -c "import requests; response = requests.get('https://raw.githubusercontent.com/dsrscientist/DSData/master/zomato.csv'); open('zomato.csv', 'wb').write(response.content)"
+     ```
